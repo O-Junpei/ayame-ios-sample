@@ -12,8 +12,6 @@
 		174FF0AC22CB4C9500504913 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174FF0AB22CB4C9400504913 /* ViewControllerExtension.swift */; };
 		174FF0AE22CB4DC500504913 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174FF0AD22CB4DC500504913 /* Config.swift */; };
 		17A53D5622CB379B00B4F10D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A53D5522CB379B00B4F10D /* AppDelegate.swift */; };
-		17A53D5822CB379B00B4F10D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A53D5722CB379B00B4F10D /* ViewController.swift */; };
-		17A53D5B22CB379B00B4F10D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A53D5922CB379B00B4F10D /* Main.storyboard */; };
 		17A53D5D22CB379C00B4F10D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A53D5C22CB379C00B4F10D /* Assets.xcassets */; };
 		17A53D6022CB379C00B4F10D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A53D5E22CB379C00B4F10D /* LaunchScreen.storyboard */; };
 		5D84B948FAF9954D609DEE9E /* Pods_ayame_ios_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72ACD72FBBA1CBA8B266FA67 /* Pods_ayame_ios_sample.framework */; };
@@ -26,8 +24,6 @@
 		174FF0AD22CB4DC500504913 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		17A53D5222CB379B00B4F10D /* ayame-ios-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ayame-ios-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A53D5522CB379B00B4F10D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		17A53D5722CB379B00B4F10D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		17A53D5A22CB379B00B4F10D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17A53D5C22CB379C00B4F10D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17A53D5F22CB379C00B4F10D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17A53D6122CB379C00B4F10D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,14 +67,12 @@
 			children = (
 				17A53D5522CB379B00B4F10D /* AppDelegate.swift */,
 				174FF0AD22CB4DC500504913 /* Config.swift */,
-				17A53D5722CB379B00B4F10D /* ViewController.swift */,
-				17A53D5922CB379B00B4F10D /* Main.storyboard */,
-				17A53D5C22CB379C00B4F10D /* Assets.xcassets */,
-				17A53D5E22CB379C00B4F10D /* LaunchScreen.storyboard */,
-				17A53D6122CB379C00B4F10D /* Info.plist */,
 				174FF0A722CB4C4C00504913 /* SelectRoomViewController.swift */,
 				174FF0A922CB4C6900504913 /* ChatViewController.swift */,
 				174FF0AB22CB4C9400504913 /* ViewControllerExtension.swift */,
+				17A53D5C22CB379C00B4F10D /* Assets.xcassets */,
+				17A53D5E22CB379C00B4F10D /* LaunchScreen.storyboard */,
+				17A53D6122CB379C00B4F10D /* Info.plist */,
 			);
 			path = "ayame-ios-sample";
 			sourceTree = "<group>";
@@ -162,7 +156,6 @@
 			files = (
 				17A53D6022CB379C00B4F10D /* LaunchScreen.storyboard in Resources */,
 				17A53D5D22CB379C00B4F10D /* Assets.xcassets in Resources */,
-				17A53D5B22CB379B00B4F10D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +217,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17A53D5822CB379B00B4F10D /* ViewController.swift in Sources */,
 				17A53D5622CB379B00B4F10D /* AppDelegate.swift in Sources */,
 				174FF0AA22CB4C6900504913 /* ChatViewController.swift in Sources */,
 				174FF0AC22CB4C9500504913 /* ViewControllerExtension.swift in Sources */,
@@ -236,14 +228,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		17A53D5922CB379B00B4F10D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				17A53D5A22CB379B00B4F10D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		17A53D5E22CB379C00B4F10D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  ayame-ios-sample
-//
-//  Created by 小野 純平 on 2019/07/02.
-//  Copyright © 2019 com.swiswiswift. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
@@ -14,8 +6,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {        
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        window.makeKeyAndVisible()
+        window.rootViewController = UINavigationController(rootViewController: SelectRoomViewController())
+        self.window = window
         return true
     }
 
